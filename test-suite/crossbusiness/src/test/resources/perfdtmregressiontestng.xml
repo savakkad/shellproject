@@ -1,0 +1,139 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossBusiness" parallel="tests" thread-count="20">
+    <listeners> <listener class-name="com.shell.markethub.base.util.listeners.BaseListener"/> </listeners>
+
+    <test name="1. chromeRemote 10.47.35.31:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.35.31:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <classes>
+            <class name="com.shell.markethub.dtm.tests.DTMTest">
+                <methods>
+                    <include name="DTM_TC01_Verify_Digital_Data_For_Retail_User_With_Single_Role_And_On_Home_Page"/>
+                </methods>
+            </class> <!-- com.shell.markethub.dtm.tests.DTMTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.35.31:4444-->
+
+    <test name="2. chromeRemote 10.47.35.31:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.35.31:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <classes>
+            <class name="com.shell.markethub.dtm.tests.DTMTest">
+                <methods>
+                    <include name="DTM_TC02_Verify_Digital_Data_For_Distributor_User_With_Multiple_Roles_And_On_Home_Page"/>
+                </methods>
+            </class> <!-- com.shell.markethub.dtm.tests.DTMTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.35.31:4444-->
+
+    <test name="3. chromeRemote 10.47.35.31:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.35.31:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <classes>
+            <class name="com.shell.markethub.dtm.tests.DTMTest">
+                <methods>
+                    <include name="DTM_TC03_Verify_Digital_Data_For_Marine_User_With_Single_Role_And_On_Home_Page"/>
+                </methods>
+            </class> <!-- com.shell.markethub.dtm.tests.DTMTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.35.31:4444-->
+
+    <test name="4. chromeRemote 10.47.35.31:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.35.31:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <classes>
+            <class name="com.shell.markethub.dtm.tests.DTMTest">
+                <methods>
+                    <include name="DTM_TC04_Verify_Digital_Data_For_Distributor_User_With_Single_Role_And_On_Sectors_Page"/>
+                </methods>
+            </class> <!-- com.shell.markethub.dtm.tests.DTMTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.35.31:4444-->
+
+    <test name="5. chromeRemote 10.47.35.31:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.35.31:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <classes>
+            <class name="com.shell.markethub.dtm.tests.DTMTest">
+                <methods>
+                    <include name="DTM_TC05_Verify_Digital_Data_On_Search_Results_Page"/>
+                </methods>
+            </class> <!-- com.shell.markethub.dtm.tests.DTMTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.35.31:4444-->
+
+    <test name="6. chromeRemote 10.47.34.103:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.34.103:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <classes>
+            <class name="com.shell.markethub.dtm.tests.DTMTest">
+                <methods>
+                    <include name="DTM_TC06_Verify_Digital_Data_On_404_Error_Page"/>
+                </methods>
+            </class> <!-- com.shell.markethub.dtm.tests.DTMTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.34.103:4444-->
+
+    <test name="7. chromeRemote 10.47.34.103:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.34.103:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <classes>
+            <class name="com.shell.markethub.dtm.tests.DTMTest">
+                <methods>
+                    <include name="DTM_TC07_Verify_Digital_Data_On_403_Error_Page"/>
+                </methods>
+            </class> <!-- com.shell.markethub.dtm.tests.DTMTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.34.103:4444-->
+
+    <test name="8. chromeRemote 10.47.34.103:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.34.103:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <classes>
+            <class name="com.shell.markethub.dtm.tests.DTMTest">
+                <methods>
+                    <include name="DTM_TC01_Verify_Digital_Data_On_Search_Results_Global"/>
+                </methods>
+            </class> <!-- com.shell.markethub.dtm.tests.DTMTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.34.103:4444-->
+
+    <test name="9. chromeRemote 10.47.34.103:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.34.103:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <classes>
+            <class name="com.shell.markethub.dtm.tests.DTMTest">
+                <methods>
+                    <include name="DTM_TC02_Verify_Digital_Data_On_Search_Results_On_Document_Page"/>
+                </methods>
+            </class> <!-- com.shell.markethub.dtm.tests.DTMTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.34.103:4444-->
+</suite> <!-- CrossBusiness -->

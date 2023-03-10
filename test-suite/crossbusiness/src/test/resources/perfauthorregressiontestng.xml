@@ -1,0 +1,79 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossBusiness" parallel="tests" thread-count="20">
+    <listeners> <listener class-name="com.shell.markethub.base.util.listeners.BaseListener"/> </listeners>
+
+    <test name="1. chromeRemote 10.47.35.31:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.35.31:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <classes>
+            <class name="com.shell.markethub.author.tests.CreateAndPublishPageTest">
+                <methods>
+                    <include name="Author_TC01_Verify_Create_Publish_And_Delete_Page_For_Banner_Component"/>
+                </methods>
+            </class> <!-- com.shell.markethub.author.tests.CreateAndPublishPageTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.35.31:4444-->
+
+    <test name="2. chromeRemote 10.47.35.31:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.35.31:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <classes>
+            <class name="com.shell.markethub.author.tests.CreateAndPublishPageTest">
+                <methods>
+                    <include name="Author_TC02_Verify_Create_Text_Box_Component"/>
+                </methods>
+            </class> <!-- com.shell.markethub.author.tests.CreateAndPublishPageTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.35.31:4444-->
+
+    <test name="3. chromeRemote 10.47.35.31:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.35.31:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <classes>
+            <class name="com.shell.markethub.author.tests.CreateAndPublishPageTest">
+                <methods>
+                    <include name="Author_TC03_Verify_Create_Manual_Asset_List_Component"/>
+                </methods>
+            </class> <!-- com.shell.markethub.author.tests.CreateAndPublishPageTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.35.31:4444-->
+
+    <test name="4. chromeRemote 10.47.35.31:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.35.31:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <classes>
+            <class name="com.shell.markethub.author.tests.CreateAndPublishPageTest">
+                <methods>
+                    <include name="Author_TC04_Verify_Create_Image_Pack_Shot_Component"/>
+                </methods>
+            </class> <!-- com.shell.markethub.author.tests.CreateAndPublishPageTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.35.31:4444-->
+
+    <test name="5. chromeRemote 10.47.35.31:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.35.31:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <classes>
+            <class name="com.shell.markethub.author.tests.CreateAndPublishPageTest">
+                <methods>
+                    <include name="Author_TC05_Verify_IFrame_Component"/>
+                </methods>
+            </class> <!-- com.shell.markethub.author.tests.CreateAndPublishPageTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.35.31:4444-->
+</suite> <!-- CrossBusiness -->

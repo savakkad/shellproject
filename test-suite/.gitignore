@@ -1,0 +1,5 @@
+.idea/*
+Logs/*.log*
+*.iml
+*/allure-results/*
+*/test-output/*

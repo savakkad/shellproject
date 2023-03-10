@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossBusiness" parallel="tests" thread-count="50">
+<listeners> <listener class-name="com.shell.markethub.base.util.listeners.BaseListener"/> </listeners>
+
+<test name="1. chrome local">
+<parameter name="appType" value="chrome"/>
+<parameter name="node" value="local"/>
+<parameter name="deviceName" value="NA"/>
+<parameter name="platformVersion" value="NA"/>
+<parameter name="moduleName" value="crossbusiness"/>
+<classes>
+<class name="com.shell.markethub.dtm.tests.DTMTest">
+<methods>
+<include name="DTM_TC05_Verify_Digital_Data_On_Search_Results_Page"/>
+</methods>
+</class> <!-- com.shell.markethub.dtm.tests.DTMTest -->
+</classes>
+</test> <!-- chrome local-->
+</suite> <!-- CrossBusiness -->

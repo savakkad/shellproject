@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossBusiness" parallel="tests" thread-count="50">
+<listeners> <listener class-name="com.shell.markethub.base.util.listeners.BaseListener"/> </listeners>
+
+<test name="1. chromeRemote 10.47.35.31:4444">
+<parameter name="appType" value="chromeRemote"/>
+<parameter name="node" value="10.47.35.31:4444"/>
+<parameter name="deviceName" value="NA"/>
+<parameter name="platformVersion" value="NA"/>
+<parameter name="moduleName" value="crossbusiness"/>
+<classes>
+<class name="com.shell.markethub.dtm.tests.DTMTest">
+<methods>
+<include name="DTM_TC08_Verify_Digital_Data_On_Search_Results_Global"/>
+</methods>
+</class> <!-- com.shell.markethub.dtm.tests.DTMTest -->
+</classes>
+</test> <!-- chromeRemote 10.47.35.31:4444-->
+<test name="3. chromeRemote 10.47.35.31:4444">
+        <parameter name="appType" value="chromeRemote"/>
+        <parameter name="node" value="10.47.35.31:4444"/>
+        <parameter name="deviceName" value="NA"/>
+        <parameter name="platformVersion" value="NA"/>
+        <parameter name="moduleName" value="crossbusiness"/>
+        <parameter name="testEnvironment" value="prod"/>
+        <classes>
+            <class name="com.shell.markethub.dtm.tests.DTMTest">
+                <methods>
+                    <include name="DTM_TC09_Verify_Digital_Data_On_Search_Results_On_Document_Page"/>
+                </methods>
+            </class> <!-- com.shell.markethub.dtm.tests.DTMTest -->
+        </classes>
+    </test> <!-- chromeRemote 10.47.35.31:4444-->
+
+</suite> <!-- CrossBusiness -->

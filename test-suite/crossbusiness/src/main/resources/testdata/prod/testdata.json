@@ -1,0 +1,267 @@
+{
+	"global": [
+		{
+			"websitesURL": "http://10.121.247.28:4502/siteadmin",
+			"authorUserName": "jyoti.gugwad",
+			"authorPassword": "Kill@123",
+			"title": "Automated Test",
+			"name": "AutomatedTest",
+			"userName": "NorwayTester",
+			"password": "Binit@123",
+			"loggedInUserText": "Welcome, Jyoti Gugwad. (sign out)",
+			"sectorsURL": "http://markethub.shell.com/content/nextgen/shell/us/en_us/distributor/gf/lubes/home/products-sectors/sectors.html",
+			"automationTestingSiteURL": "http://10.121.247.28:4502/siteadmin#/content/nextgen/shell/no/nb_no/distributor/gf/fuels/home/ForAutoTests"
+		}
+	],
+	"Author_TC01_Verify_Create_Publish_And_Delete_Page_For_Banner_Component": [
+		{
+			"imageTitle": "Automated Test Image",
+			"imagePath": "/content/dam/nextgen/shell/dex/gf/no/nb/fuels/images-landscape/safety-rules.jpg"
+		}
+	],
+	"Author_TC02_Verify_Create_Text_Box_Component": [
+		{
+			"textBoxTitle": "Text Box Auto Test Title",
+			"textBoxDescription": "This is to test TextBox automatically"
+		}
+	],
+	"Author_TC03_Verify_Create_Manual_Asset_List_Component": [
+		{
+			"manualAssetListTitle": "Manual Asset List Automated Test",
+			"assetPath": "/content/dam/nextgen/shell/dex/gf/no/nb/fuels/images-landscape/safety-rules.jpg"
+		}
+	],
+	"Author_TC04_Verify_Create_Image_Pack_Shot_Component": [
+		{
+			"imagePackShotTitle": "Automated Image Packshot Test",
+			"imagePath": "/content/dam/nextgen/shell/dex/gf/no/nb/fuels/images-landscape/safety-rules.jpg",
+			"alternativeText": "Auto Image 1",
+			"imageTitle": "Auto Image 1"
+		}
+	],
+	"Author_TC05_Verify_IFrame_Component": [
+		{
+			"targetingApplicationText": "https://akamai.markethub.shell.com/content/nextgen/shell/no/nb_no/distributor/gf/fuels/home/workspace/help_and_support.html"
+		}
+	],
+	"DTM_TC01_Verify_Digital_Data_For_Retail_User_With_Single_Role_And_On_Home_Page": [
+		{
+			"name": "Login Page",
+			"section": "Login",
+			"language": "en",
+			"status": "unknown",
+			"userName": "PerfUKuser",
+			"password": "zxasQW!2",
+			"homeName": "home",
+			"homeSection": "home",
+			"country": "gb|en",
+			"homeLanguage": "en",
+			"userID": "fu0SXESNHh5Nil/48FYdKA==",
+			"userStatus": "logged_in",
+			"userPersona": "retailer",
+			"userRole": "retailer",
+			"companyName": "SITAL PETROLEUM LTD",
+			"companyID": "0012098149",
+			"COB": "rba-1",
+			"LOB": "retail",
+			"operationUnit": "gb",
+			"userId": "carl_test1"
+		}
+	],
+	"DTM_TC02_Verify_Digital_Data_For_Distributor_User_With_Multiple_Roles_And_On_Home_Page": [
+		{
+			"name": "Login Page",
+			"section": "Login",
+			"language": "en",
+			"status": "unknown",
+			"userName": "PerfUS_user2",
+			"password": "zxasQW!2",
+			"homeName": "home",
+			"homeSection": "home",
+			"country": "us|en",
+			"homeLanguage": "en",
+			"userID": "cEhIwuZn0JKaW3H53kJELg==",
+			"userStatus": "logged_in",
+			"userPersona": "owner",
+			"userRole1": "principal",
+			"userRole2": "sales_manager",
+			"companyName": "O'ROURKE DIST. CO., INC.",
+			"companyID": "0011243768",
+			"COB": "lubes",
+			"LOB": "distributor",
+			"operationUnit": "us"
+		}
+	],
+	"DTM_TC03_Verify_Digital_Data_For_Marine_User_With_Single_Role_And_On_Home_Page": [
+		{
+			"name": "Login Page",
+			"section": "Login",
+			"language": "en",
+			"status": "unknown",
+			"userName": "perfmarine",
+			"password": "zxasQW!2",
+			"userName1": "Jyoti.Gugwad",
+			"password1": "Kill@123",
+			"homeName": "home",
+			"homeSection": "home",
+			"country": "glo|en",
+			"homeLanguage": "en",
+			"userID": "SdFuw1vp1ctsGH0jekEb2A==",
+			"userStatus": "logged_in",
+			"userPersona": "procurement",
+			"userRole": "dmm",
+			"companyName": "IDEMITSU KOSAN CO LTD",
+			"companyID": "0010208028",
+			"COB": "lubes",
+			"LOB": "gcmarine",
+			"operationUnit": "glo"
+		}
+	],
+	"DTM_TC04_Verify_Digital_Data_For_Distributor_User_With_Single_Role_And_On_Sectors_Page": [
+		{
+			"name": "sectors",
+			"section": "products-sectors",
+			"language": "en",
+			"status": "unknown",
+			"userName": "PerfUS_user2",
+			"password": "zxasQW!2",
+			"country": "us|en",
+			"userID": "cEhIwuZn0JKaW3H53kJELg==",
+			"userStatus": "logged_in",
+			"userPersona": "owner",
+			"userRole1": "principal",
+			"userRole2": "sales_manager",
+			"companyName": "O'ROURKE DIST. CO., INC.",
+			"companyID": "0011243768",
+			"COB": "lubes",
+			"LOB": "distributor",
+			"operationUnit": "us"
+		}
+	],
+	"DTM_TC05_Verify_Digital_Data_On_Search_Results_Page": [
+		{
+			"searchTerm": "petrol",
+			"searchResult": "13",
+			"searchType": "general",
+			"productName": "petrol",
+			"userName": "PerfUKuser",
+			"password": "zxasQW!2"
+		}
+	],
+	"DTM_TC06_Verify_Digital_Data_On_404_Error_Page": [
+		{
+			"Error404URL": "http://akamai.markethub.shell.com/content/nextgen/shell/gb/en_gb/retail/rba/rba-1/home/sumant.html",
+			"pageErrorCode": "404",
+			"pageError": "not_found",
+			"pageErrorURL": "/content/nextgen/shell/gb/en_gb/retail/rba/rba-1/home/sumant.html",
+			"userName": "PerfUKuser",
+			"password": "zxasQW!2",
+			"userStatus": "logged_in",
+			"userPersona": "retailer",
+			"userRole1": "retailer",
+			"companyName": "SITAL PETROLEUM LTD",
+			"companyID": "0012098149",
+			"COB": "rba-1",
+			"name": "Error Page",
+			"section": "home",
+			"language": "en_gb",
+			"status": "unknown",
+			"country": "GB",
+			"LOB": "retail",
+			"operationUnit": "gb",
+			"userID": "fu0SXESNHh5Nil/48FYdKA=="
+		}
+	],
+	"DTM_TC07_Verify_Digital_Data_On_403_Error_Page": [
+		{
+			"Error403URL": "http://akamai.markethub.shell.com/content/nextgen/shell/gb/en_gb/retail/rba/rba-1/home",
+			"pageErrorCode": "403",
+			"pageError": "forbidden",
+			"pageErrorURL": "/content/dam/nextgen/shell/retail/gb/en/rba/rba-1/download_center/convenience-retail/Kale%20Assets/shell_go_plus_thumbnail.jpg/",
+			"userName": "PerfUKuser",
+			"password": "zxasQW!2",
+			"userStatus": "logged_in",
+			"userPersona": "retailer",
+			"userRole1": "retailer",
+			"companyName": "SITAL PETROLEUM LTD",
+			"companyID": "0012098149",
+			"COB": "rba-1",
+			"name": "Error Page",
+			"section": "home",
+			"language": "en_gb",
+			"status": "unknown",
+			"country": "GB",
+			"LOB": "retail",
+			"operationUnit": "gb",
+			"userID": "fu0SXESNHh5Nil/48FYdKA=="
+		}
+	],
+	"DTM_TC08_Verify_Digital_Data_On_Search_Results_Global": [
+		{
+			"searchTerm": "petrol",
+			"searchResult": "13",
+			"searchType": "general",
+			"productName": "petrol",
+			"userName": "Jyoti.Gugwad",
+			"password": "Kill@123",
+			"userID": "Aamir01"
+		}
+	],
+	"DTM_TC09_Verify_Digital_Data_On_Search_Results_On_Document_Page": [
+		{
+			"searchTerm": "petrol",
+			"searchResult": "87",
+			"searchType": "documents",
+			"productName": "petrol",
+			"userName": "Jyoti.Gugwad",
+			"password": "Kill@123",
+			"userID": "carl_test1",
+			"url": "https://www.markethub.shell.com/content/nextgen/shell/gb/en_gb/retail/rba/rba-1/home/workspace/download_center.html"
+		}
+	],
+	"DTM_TC03_Verify_Digital_Data_For_Distributor_User_With_Multiple_Role_And_On_Sectors_Page": [
+		{
+			"userName": "Jyoti.Gugwad",
+			"password": "Kill@123",
+			"prodUserName": "ICV-ORPP",
+			"name": "home",
+			"section": "home",
+			"language": "en",
+			"status": "unknown",
+			"country": "us|en",
+			"userID": "59bHLZ8VozYALNh4pbBABg==",
+			"userStatus": "logged_in",
+			"userPersona": "owner",
+			"userRole1": "sales_rep",
+			"companyName": "O'ROURKE DIST. CO., LLC",
+			"companyID": "0011243768",
+			"COB": "lubes",
+			"LOB": "distributor",
+			"operationUnit": "us"
+		}
+	],
+	"DTM_TC10_Verify_Digital_Data_For_Retail_User_With_Single_Role_And_On_Home_Page": [
+		{
+			"name": "Login Page",
+			"section": "Login",
+			"language": "en",
+			"status": "unknown",
+			"userName": "Jyoti.Gugwad",
+			"password": "Kill@123",
+			"homeName": "home",
+			"homeSection": "home",
+			"country": "gb|en",
+			"homeLanguage": "en",
+			"userID": "n45oL5dq5DbHO5qUGWoDiw==",
+			"userStatus": "logged_in",
+			"userPersona": "retailer",
+			"userRole": "retailer",
+			"companyName": "ANGELA BOAT TA AB FORECOURTS",
+			"companyID": "0011371892",
+			"COB": "rdo-1",
+			"LOB": "retail",
+			"operationUnit": "gb",
+			"prodUser": "carl_test1"
+		}
+	]
+}
